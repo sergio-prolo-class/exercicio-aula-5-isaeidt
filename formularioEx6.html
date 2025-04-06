@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<head>
+    <title>
+        Biblioteca Isadora
+    </title>
+</head>
+<body>
+    <form>
+        <header>
+            <h1> Biblioteca da Isadora 📖</h1>
+            <hr>
+
+        </header>
+
+        <section>
+            <h3>Dados do livro 📜</h3>
+        
+            <label>
+                Nome do livro <input type="tetx" name = "nomeLivro">
+            </label>
+            <br>
+            <label>
+                Nome do autor <input type="text" name = "nomeAutor">
+            </label>
+            <br>
+            <label>
+                Data de publicação do livro <input type = "date">
+            </label>
+            <br>
+            <label>
+                Sinopse <textarea name="sinopse"></textarea>
+            </label>
+            <br>
+            <label>Gênero 
+                <select name = "Gêneros">
+                    <option value = "romance"> Romance </option>
+                    <option value = "terror"> Terror </option>
+                    <option value = "suspense"> Suspense </option>
+                    <option value = "outro"> Outro </option>
+
+                </select>
+            </label>
+            
+        </section>
+        <hr>
+        <section>
+            <h3> Dados da leitura 🖋</h3>
+            <label>
+                Data de inicio da leitura <input type = "date">
+            </label>
+            <br>
+            <label>
+                Data do fim da leitura <input type = "date">
+            </label>
+            <label>
+                Lendo <input type="radio">
+            </label>
+            <br>
+            <label>
+               Nota de leitura (0 a 10) <input type="range" name="user_satisf" min="0" max="10" step="1">
+            </label>
+            <br>
+            <label>
+                Resenha <textarea name="sinopse"></textarea>
+            </label>
+            <br>
+            <p></p> <!--utilizei para deixar um espaço entre os campos-->
+            <label>
+                Envie uma foto da capa <em>(opcional)</em><br>
+                <input type="file" name="foto" accept=".jpg, .png">
+            </label>
+       
+            <br>
+            <label>
+                Cor predominante da capa: <input type="color" name="cor">
+            </label>
+
+        </section>
+        <p> </p>
+
+
+        <section>
+            <form>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+            </form>
+        </section>
+
+
+    </form>
+
+</body>
