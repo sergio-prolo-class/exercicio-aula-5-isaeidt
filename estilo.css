@@ -1,4 +1,45 @@
 
+* {
+    box-sizing: border-box;
+  }
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.caixa-habilidades{
+
+    background-color: #cf9393;
+    border: 5px ;
+    padding: 20px;
+    margin: 30px;
+    height: 500px;
+    overflow: auto;
+}
+
+.secao-onibus{
+    background-color: #daa0a0;
+    
+}
+.secao-onibus td {
+    background-color: #e9c5d6;
+}
+
+.secao-onibus td:hover{
+    border: 2px solid #070202;
+    cursor: pointer;
+}
+
+#diciplinas dd{
+    color: #eb5fdf;
+}
+
+.destaque{
+    font-weight: bold;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ecd5d5;
