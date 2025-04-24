@@ -17,6 +17,7 @@
     margin: 30px;
     height: 500px;
     overflow: auto;
+    border-radius: 10px;
 }
 
 .secao-onibus{
@@ -34,11 +35,42 @@
 
 #diciplinas dd{
     color: #fa4ceb;
+    
 }
 
 .destaque{
     font-weight: bold;
 }
+
+.colunas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filmes, .galeria, .sites{
+    flex: 1; 
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px; 
+}
+
+.imagens {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.imagens img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,6 +88,7 @@ h1, h2, h3 {
 p {
     font-size: 18px;
     line-height: 1.6;
+    text-align: center;
     margin: 20px;
     color: #444;
 }
