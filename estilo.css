@@ -81,7 +81,7 @@
 }
 
 
-.filmes:active, .galeria:active, .sites:active {
+.filmes:active, .sites:active {
     background-color: #ddd; 
 }
 
