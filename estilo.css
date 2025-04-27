@@ -33,7 +33,17 @@
     cursor: pointer;
 }
 
+#diciplinas{
+    display: flex;
+    flex-direction: column;
+}
+
+#diciplinas dt{
+    text-align: center;
+}
+
 #diciplinas dd{
+    text-align: center;
     color: #fa4ceb;
     
 }
@@ -41,6 +51,23 @@
 #diciplinas a{
     color: #eb62eb;
     text-decoration: none;
+}
+#diciplinas a:hover{
+    opacity: 0.5;
+}
+
+#biblioteca{
+    display: flex;
+    flex-direction: column;
+}
+
+#biblioteca a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#biblioteca a:hover{
+    opacity: 0.5;
 }
 
 .destaque{
@@ -151,4 +178,19 @@ thead {
     background-color: hsla(0, 32%, 69%, 0.473);
     font-weight: bold;
 }
+
+#loja{
+    display: flex;
+    flex-direction: column;
+}
+
+#loja a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#loja a:hover{
+    opacity: 0.5;
+}
+
 
