@@ -9,6 +9,22 @@
   box-sizing: border-box;
 }
 
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;               
+    text-align: center; 
+}
+
+#header img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
 .caixa-habilidades{
 
     background-color: #cf9393;
@@ -79,6 +95,7 @@
     flex-direction: row;
     gap: 20px;
     padding: 20px;
+    height: 400px;
 }
 
 .filmes, .galeria, .sites{
@@ -96,7 +113,8 @@
 }
 
 .imagens img {
-    width: 100%;
+    text-align: center;
+    width: 90%;
     height: auto;
     border-radius: 8px;
 }
@@ -130,7 +148,7 @@
 }
 
 .galeria{
-    height: 800px;
+    height: 360px;
     overflow-y: auto;
 }
 
